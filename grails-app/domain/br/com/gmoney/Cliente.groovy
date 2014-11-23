@@ -6,6 +6,7 @@ class Cliente {
     String password
     Date dataInicial
 
+
     static hasMany = [instituicoes: Instituicao]
 
     static constraints = {
