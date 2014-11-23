@@ -19,4 +19,3 @@ class Fatura {
         dataVencimento column: 'DATA_VENCIMENTO'
     }
 }
-
