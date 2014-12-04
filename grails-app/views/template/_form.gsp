@@ -3,13 +3,15 @@
 </head>
 <body>
     <g:form controller="fatura" action="processarAdicao" >
+        <g:hiddenField name="itemRecorrente" value="${itemRecorrente?.id}"/>
+
         <div class="form-group">
-        <g:hiddenField name="instituicaoId" value="${instituicao?.id}" />
+            <g:hiddenField name="instituicaoId" value="${instituicao?.id}" />
         </div>
 
         <div class="form-group">
-        <label>Descrição da transação</label>
-        <g:textField name="descricao" value="${itemFatura?.descricao?: ''}" class="form-control"/>
+            <label>Descrição da transação</label>
+            <g:textField name="descricao" value="${itemRecorrente?.descricao ?: (itemFatura?.descricao ?: '')}" class="form-control"/>
         </div>
 
         <div class="form-group">
@@ -47,7 +49,7 @@
         <div class="form-group">
             <div class="input-group">
                 <div class="input-group-addon">R$</div>
-                <g:textField name="valor" value="${itemFatura?.valor?: ''}" class="form-control" placeholder="Valor da transação"/>
+                <g:textField name="valor" value="${itemRecorrente?.valor ?: (itemFatura?.valor?: '')}" class="form-control" placeholder="Valor da transação"/>
             </div>
         </div>
 

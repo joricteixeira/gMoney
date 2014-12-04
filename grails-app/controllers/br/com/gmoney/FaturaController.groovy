@@ -19,8 +19,11 @@ class FaturaController {
             redirect action: index()
         }
 
+        Long itemRecorrenteId = (params.itemRecorrente && params.itemRecorrente.isNumber()) ? new Long(params.itemRecorrente) : 0
+        def itemRecorrente = ItemFaturaRecorrente.findById(itemRecorrenteId)
+
         render view: "/fatura/formularioAdicao",
-               model: [instituicao: instituicao, terceiro: Terceiro.list()]
+               model: [instituicao: instituicao, terceiro: Terceiro.list(), itemRecorrente: itemRecorrente]
     }
 
     def processarAdicao(ItemFaturaCommand itemFaturaCommand){

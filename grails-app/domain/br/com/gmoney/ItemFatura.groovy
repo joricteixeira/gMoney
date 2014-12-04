@@ -10,6 +10,8 @@ class ItemFatura {
     Terceiro terceiro
     BigDecimal valorTerceiro
 
+    ItemFaturaRecorrente itemFaturaRecorrente
+
     static belongsTo = [fatura: Fatura, subGrupo: SubGrupo]
 
     ItemFatura(ItemFaturaCommand itemFaturaCommand, Fatura faturaSelecionada, SubGrupo subGrupoSelecionado){
@@ -30,6 +32,7 @@ class ItemFatura {
         quantidadeParcelas(min: 1)
         descricao(nullable: false, blank: false)
         terceiro(nullable: true)
+        itemFaturaRecorrente(nullable: true)
     }
 
     static mapping = {
@@ -46,6 +49,7 @@ class ItemFatura {
         valorTerceiro colum: 'VALOR_TERCEIRO'
         fatura column: 'FATURA_ID'
         subGrupo column: 'SUB_GRUPO_ID'
+        itemFaturaRecorrente column: 'ITEM_FATURA_RECORRENTE_ID'
 
     }
 }

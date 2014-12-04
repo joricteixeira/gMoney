@@ -8,7 +8,7 @@
         LISTAR
 
     </div>
-    <h3>Previsto para ${mes}/${ano}: <strong>R$ ${itensFatura*.valor.sum{it}}</strong> | ${itensFatura.each{ifa -> ifa.id == null}*.valor.sum {it}}</h3>
+    <h3>Previsto para ${mes}/${ano}: <strong><g:formatNumber type="currency" currencyCode="BRL" number="${itensFatura*.valor.sum{it}}" /> | <g:formatNumber type="currency" currencyCode="BRL" number="${valorRenda}" /></strong></h3>
     <g:render template="/gerenciador/barraPressao" />
     <table class="table table-bordered">
         <tr>

@@ -13,8 +13,8 @@ class GerenciadorController {
         render(view: '/gerenciador/previstosNoMes' ,
                model:[itensFatura:listaGastos,
                       mes:mes, ano:ano,
-                      valorRenda: 3800,
-                      valorGasto: 1500
+                      valorRenda: 4000,
+                      valorGasto: listaGastos*.valor.sum{it}
                ]
         )
     }
