@@ -26,4 +26,8 @@ class Instituicao {
         dataFimVigencia column: 'DATA_FIM_VIGENCIA'
         cliente column: 'CLIENTE_ID'
     }
+
+    String toString(){
+        this.id+ " - "+ this.nome
+    }
 }

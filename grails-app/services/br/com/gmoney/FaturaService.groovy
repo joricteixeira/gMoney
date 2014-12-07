@@ -11,7 +11,8 @@ class FaturaService {
         def subgrupo = new SubGrupo()
         subgrupo.save()
         listaFaturas.eachWithIndex { fatura, index ->
-            itemFaturaCommand.numeroParcela = index + Integer.parseInt(itemFaturaCommand.numeroParcela)
+
+            itemFaturaCommand.numeroParcela = index + 1
             def item = new ItemFatura(itemFaturaCommand, fatura, subgrupo)
             item.save()
 
@@ -32,6 +33,9 @@ class FaturaService {
             for (int i = Integer.parseInt(itemFaturaCommand.numeroParcela); i <= Integer.parseInt(itemFaturaCommand.quantidadeParcelas); i++) {
                 Date dataVencimento = calcularDataVencimento(i, itemFaturaCommand.dataOrigemCompra, instituicao)
                 println("Abrindo fatura de data vencimento: " + dataVencimento)
+                dataVencimento.setHours(0)
+                dataVencimento.setMinutes(0)
+                dataVencimento.setSeconds(0)
                 def fatura = Fatura.findOrCreateByInstituicaoAndDataVencimento(instituicao, dataVencimento)
                 fatura.save()
                 faturas.add(fatura)
@@ -79,13 +83,25 @@ class FaturaService {
     }
 
     def listaDeFaturas(FiltrosFaturaCommand filtrosFaturaCommand){
-        def faturas
+
+        StringBuilder query = new StringBuilder()
+        Map params = new HashMap()
+
+        query.append("SELECT F FROM Fatura AS F WHERE 1 = 1")
 
         if(filtrosFaturaCommand.instituicao != null){
-            faturas = Fatura.findAllByInstituicao(Instituicao.findById(new Long(filtrosFaturaCommand.instituicao)))
-        }else{
-            faturas = Fatura.list()
+            query.append(" AND F.instituicao = :pInstituicao")
+            params.put("pInstituicao", Instituicao.findById(new Long(filtrosFaturaCommand.instituicao)))
+            //faturas = Fatura.findAllByInstituicao(Instituicao.findById(new Long(filtrosFaturaCommand.instituicao)))
         }
+
+        if((filtrosFaturaCommand.mes != 0) && (filtrosFaturaCommand.ano != 0)){
+            query.append(" AND MONTH(F.dataVencimento) = :pMes AND YEAR(F.dataVencimento) = :pAno")
+            params.put("pMes",filtrosFaturaCommand.mes)
+            params.put("pAno", filtrosFaturaCommand.ano)
+        }
+
+        def faturas = Fatura.executeQuery(query.toString(),params)
 
         return faturas
     }

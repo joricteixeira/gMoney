@@ -16,6 +16,7 @@ class ItemFaturaCommand {
     String terceiroId
     String valorTerceiro
     String dataOrigemCompra
+    String itemRecorrente
 
     static constraint = {
         descricao(blank: false, nullable: false)
@@ -30,10 +31,10 @@ class ItemFaturaCommand {
     }
 
     String getValor(){
-        this.valor.replace('.','').replace(',','.')
+        this.valor?.replace('.','')?.replace(',','.')
     }
 
     String getValorTerceiro(){
-        this.valorTerceiro.replace('.','').replace(',','.')
+        this.valorTerceiro?.replace('.','')?.replace(',','.')
     }
 }

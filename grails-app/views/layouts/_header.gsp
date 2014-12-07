@@ -31,10 +31,13 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controle de Receita</a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="">Gastos por Institui&ccedil;&atilde;o</a>
+                            <g:link controller="grafico" action="gastosNoMes">Gastos por Institui&ccedil;&atilde;o</g:link>
                         </li>
                         <li>
-                            <a href="">Gastos No M&ecirc;s</a>
+                            <g:link controller="gerenciador" action="itensNoMes">Gastos No M&ecirc;s (por item)</g:link>
+                        </li>
+                        <li>
+                            <g:link controller="gerenciador" action="faturasNoMes">Gastos No M&ecirc;s (por fatura)</g:link>
                         </li>
                     </ul>
                 </li>

@@ -1,5 +1,7 @@
 package br.com.gmoney
 
+import com.lowagie.text.pdf.AcroFields
+
 class ItemFatura {
 
     Date dataOrigemCompra
@@ -24,6 +26,7 @@ class ItemFatura {
         this.valorTerceiro = new BigDecimal(itemFaturaCommand.valorTerceiro ?: 0)
         this.fatura = faturaSelecionada
         this.subGrupo = subGrupoSelecionado
+        this.itemFaturaRecorrente = ItemFaturaRecorrente.findById(new Long(itemFaturaCommand.itemRecorrente ?: 0))
     }
 
 

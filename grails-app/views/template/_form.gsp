@@ -49,7 +49,7 @@
         <div class="form-group">
             <div class="input-group">
                 <div class="input-group-addon">R$</div>
-                <g:textField name="valor" value="${itemRecorrente?.valor ?: (itemFatura?.valor?: '')}" class="form-control" placeholder="Valor da transação"/>
+                <g:textField name="valor" value="${itemRecorrente?.valor ? itemRecorrente.valor.toString().replace(".",",") : (itemFatura?.valor?.replace(".",",") ?: '')}" class="form-control" placeholder="Valor da transação"/>
             </div>
         </div>
 

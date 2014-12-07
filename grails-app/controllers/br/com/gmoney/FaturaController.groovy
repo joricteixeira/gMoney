@@ -14,20 +14,20 @@ class FaturaController {
 
     def formularioAdicao(){
 
-        def instituicao = Instituicao.findById(new Long(params.instituicao ?: 0))
+        Long itemRecorrenteId = (params.itemRecorrente && params.itemRecorrente.isNumber()) ? new Long(params.itemRecorrente) : 0
+        def itemRecorrente = ItemFaturaRecorrente.findById(itemRecorrenteId)
+
+        def instituicao = itemRecorrente ? itemRecorrente.instituicao : Instituicao.findById(new Long(params.instituicao ?: 0))
         if(instituicao == null){
             redirect action: index()
         }
 
-        Long itemRecorrenteId = (params.itemRecorrente && params.itemRecorrente.isNumber()) ? new Long(params.itemRecorrente) : 0
-        def itemRecorrente = ItemFaturaRecorrente.findById(itemRecorrenteId)
 
         render view: "/fatura/formularioAdicao",
                model: [instituicao: instituicao, terceiro: Terceiro.list(), itemRecorrente: itemRecorrente]
     }
 
     def processarAdicao(ItemFaturaCommand itemFaturaCommand){
-        println("> a >"+itemFaturaCommand.dataOrigemCompra)
 
         if(itemFaturaCommand.validate()){
             faturaService.processarAdicao(itemFaturaCommand)
@@ -57,5 +57,17 @@ class FaturaController {
 
         render view: '/fatura/itemFatura/listagemItensFatura',
                model: [itensFatura: itensFatura]
+    }
+
+    def detalhesFatura(){
+        def idFatura = new Long(params.id ?: 0)
+
+        def fatura = Fatura.findById(idFatura)
+
+        if(fatura == null){
+            redirect action: listarFaturas()
+        }
+
+        render(view: '/fatura/detalheFatura', model:[fatura:fatura])
     }
 }

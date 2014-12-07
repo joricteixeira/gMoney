@@ -11,6 +11,7 @@
                 <th>#</th>
                 <th>Valor</th>
                 <th>Instituição</th>
+                <th>ID Fatura</th>
                 <th>Fatura</th>
                 <th>Terceiro</th>
                 <th>Valor terceiro</th>
@@ -21,6 +22,7 @@
                 <td>${item.id}</td>
                 <td><g:formatNumber number="${item.valor}" type="currency" currencyCode="BRL"/></td>
                 <td>${item.fatura.instituicao.nome}</td>
+                <td>${item.fatura.id}</td>
                 <td><g:formatDate date="${item.fatura.dataVencimento}" format="dd/MM/yyyy"/></td>
                 <td>${item.terceiro?.nome ?: '-'}</td>
                 <td>

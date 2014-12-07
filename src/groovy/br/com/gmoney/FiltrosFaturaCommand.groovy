@@ -8,4 +8,6 @@ import grails.validation.Validateable
 @Validateable
 class FiltrosFaturaCommand {
     String instituicao
+    int mes
+    int ano
 }

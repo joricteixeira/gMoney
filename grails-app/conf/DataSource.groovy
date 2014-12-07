@@ -19,7 +19,8 @@ environments {
         dataSource {
             dbCreate = "update" // one of 'create', 'create-drop', 'update', 'validate', ''
             //url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-            url = "jdbc:mysql://127.0.0.1/gMoney"
+            //url = "jdbc:mysql://127.0.0.1/gMoney"
+            url = "jdbc:mysql://127.0.0.1/gMoney_prd"
             driverClassName = "com.mysql.jdbc.Driver"
             dialect = org.hibernate.dialect.MySQL5InnoDBDialect
             username = "root"

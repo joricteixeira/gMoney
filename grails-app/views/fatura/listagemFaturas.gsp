@@ -48,7 +48,7 @@
 
     <div class="list-group">
         <g:each in="${faturas}" var="fatura">
-            <a class="list-group-item">
+            <g:link controller="fatura" action="detalhesFatura" params="[id: fatura.id]" class="list-group-item">
                 <h4 class="list-group-item-heading">
                     <g:formatNumber number="${fatura.itensFatura*.valor.sum{it}}" type="currency" />
                 </h4>
@@ -56,7 +56,7 @@
                     <g:formatDate date="${fatura.dataVencimento}" format="dd/MM/yyyy" /> -
                     ${fatura.instituicao.nome}
                 </p>
-            </a>
+            </g:link>
         </g:each>
     </div>
 </div>
