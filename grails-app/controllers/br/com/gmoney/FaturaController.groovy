@@ -7,6 +7,8 @@ class FaturaController {
         def cliente = Cliente.findById(1)
         def instituicoes = Instituicao.findAllByCliente(cliente)
 
+        log.info("Abriu")
+
         render view: "/fatura/selecionarInstituicao",
                model:[instituicoes: instituicoes]
 

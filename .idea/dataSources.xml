@@ -4,9 +4,7 @@
     <data-source source="LOCAL" name="gMoney dev" uuid="e4c26f2d-809a-4a8c-9111-2a37d064e8f0">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost/gTunes</jdbc-url>
-      <user-name>joaoricardotei09</user-name>
-      <user-password>dfcedfd9dfdcdfdadfccdfc7</user-password>
+      <jdbc-url>jdbc:mysql://mysql.joaoricardoteixeira.com.br/joaoricardotei10</jdbc-url>
       <libraries>
         <library>
           <url>file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.19/mysql-connector-java-5.1.19.jar</url>
@@ -15,4 +13,3 @@
     </data-source>
   </component>
 </project>
-

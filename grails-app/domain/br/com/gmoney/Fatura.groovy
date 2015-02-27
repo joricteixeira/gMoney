@@ -5,7 +5,7 @@ class Fatura {
 
     static belongsTo = [instituicao: Instituicao]
 
-    static hasMany = [itensFatura: ItemFatura]
+    static hasMany = [itensFatura: ItemFatura, encargos: Encargo]
 
     static constraints = {
     }

@@ -55,6 +55,11 @@ class BarraPressaoTagLib {
             def gastoTerceiro = (despesaTerceiro*100)/despesa
             def gasto = 100 - renda - gastoTerceiro
 
+            if(gasto < 0){
+                gastoTerceiro += gasto
+                gasto = 0
+            }
+
             out << render(template: '/taglibs/barraPressaoDevendo', model: [gasto: gasto, gastoTerceiro: gastoTerceiro, renda:renda])
         }
     }

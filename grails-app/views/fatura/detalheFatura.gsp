@@ -5,7 +5,7 @@
 <body>
     <div class="container">
 
-
+        <h1>${fatura.instituicao.nome}</h1>
 
         <div class="row">
 
@@ -15,7 +15,7 @@
                         <h3 class="panel-title">Vencimento</h3>
                     </div>
                     <div class="panel-body">
-                        <g:formatDate format="dd/MM/yyyy" value="${fatura.dataVencimento}" />
+                        <g:formatDate format="dd/MM/yyyy" date ="${fatura.dataVencimento}" />
                     </div>
                 </div>
             </div>
@@ -28,27 +28,46 @@
                         </h3>
                     </div>
                     <div class="panel-body">
-                        <g:formatNumber number="${fatura.itensFatura*.valor.sum{it}}" type="currency"/>
+                        <g:formatNumber number="${(fatura.itensFatura*.valor.sum{it} ?: 0) + (fatura.encargos*.valor.sum{it} ?: 0)}" type="currency"/>
                     </div>
                 </div>
             </div>
         </div>
 
-
+        <g:if test="${!fatura.encargos.isEmpty()}">
+        <table class="table table-bordered">
+            <tr>
+                <th>Descri&ccedil;&atilde;o</th>
+                <th>R$</th>
+            </tr>
+            <g:each in="${fatura.encargos}" var="item">
+                <tr>
+                    <td>${item.descricao}</td>
+                    <td><g:formatNumber number="${item.valor}" type="currency" currencyCode="BRL" currencySymbol=""/></td>
+                </tr>
+            </g:each>
+        </table>
+        </g:if>
 
         <table class="table table-bordered">
             <tr>
+                <th>#</th>
                 <th>Data</th>
                 <th>Descri&ccedil;&atilde;o</th>
                 <th>Parcelas</th>
                 <th>R$</th>
+                <th>Terceiro</th>
+                <th>Valor Terceiro</th>
             </tr>
-            <g:each in="${fatura.itensFatura}" var="item">
+            <g:each in="${fatura.itensFatura.sort{a,b -> a.dataOrigemCompra < b.dataOrigemCompra ? -1 : 1}}" var="item">
                 <tr>
+                    <td>${item.id}</td>
                     <td><g:formatDate date="${item.dataOrigemCompra}" format="dd/MM/yyyy"/></td>
                     <td>${item.descricao}</td>
                     <td>${item.numeroParcela} / ${item.quantidadeParcelas}</td>
                     <td><g:formatNumber number="${item.valor}" type="currency" currencyCode="BRL" currencySymbol=""/></td>
+                    <td>${item.terceiro?.nome}</td>
+                    <td><g:formatNumber number="${item.valorTerceiro}" type="currency" currencyCode="BRL" currencySymbol=""/></td>
                 </tr>
             </g:each>
         </table>
