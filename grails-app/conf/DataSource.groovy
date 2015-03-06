@@ -66,14 +66,11 @@ environments {
     }
     production {
         dataSource {
-            dbCreate = "create"
-            //url = "jdbc:h2:prodDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
-
-            dbCreate = "update"
-            url = "jdbc:mysql://localhost/gTunes"
+            url = "jdbc:mysql://mysql.joaoricardoteixeira.com.br/joaoricardotei10"
             driverClassName = "com.mysql.jdbc.Driver"
-            username = "joaoricardotei09"
-            password = "dsvpfm"
+            dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+            username = "joaoricardotei10"
+            password = "dna399"
 
             properties {
                // See http://grails.org/doc/latest/guide/conf.html#dataSource for documentation

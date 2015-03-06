@@ -6,7 +6,7 @@
         <g:hiddenField name="itemRecorrente" value="${itemRecorrente?.id}"/>
 
         <div class="form-group">
-            <g:hiddenField name="instituicaoId" value="${instituicao?.id}" />
+            <g:hiddenField name="instituicaoId" id="instituicaoId" value="${instituicao?.id}" />
         </div>
 
         <div class="form-group">
@@ -55,7 +55,7 @@
 
         <div class="form-group">
             <label>Data da transação</label>
-            <input type="date" name="dataOrigemCompra" class="form-control"/>
+            <input type="date" id="dataOrigemCompra" name="dataOrigemCompra" class="form-control"/>
         </div>
 
         <g:if test="${!terceiro.isEmpty()}">

@@ -1,5 +1,7 @@
 package br.com.gmoney
 
+import jline.internal.Log
+
 class FaturaController {
     FaturaService faturaService
 
@@ -71,5 +73,28 @@ class FaturaController {
         }
 
         render(view: '/fatura/detalheFatura', model:[fatura:fatura])
+    }
+
+    def calcularDataVencimento(){
+
+        def data = params.dataObtida
+        def instituicaoId = params.instituicaoObtida
+
+        Log.info("Data Obtida: "+ data)
+        Log.info("ID Instituição: "+ instituicaoId)
+
+        if((data != "") && (instituicaoId.isNumber())){
+            def instituicao = Instituicao.findById(new Long(instituicaoId))
+
+            def dataVencimento = faturaService.calcularDataVencimento(1, data as String,instituicao)
+            render(view:'/fatura/dataVencimentoCalculada', model: [dataVencimento: dataVencimento] )
+        }else{
+            render 'Não foi possível calcular a data'
+        }
+
+
+
+
+
     }
 }
