@@ -27,12 +27,14 @@ class GraficoTO {
         script.append('         theme: "theme2",')
         script.append('         data: [')
 
-        datas.each { it ->
+        def tam = datas.size() - 1
+
+        datas.eachWithIndex {  it, index ->
             script.append('         {')
             script.append('             type: "'+it.type+'",')
             script.append('             indexLabelFontFamily: "Garamond",')
             script.append('             indexLabelFontSize: 20,')
-            script.append('             indexLabel: "{label} R$ {y}",')
+            //script.append('             indexLabel: "{label} R$ {y}",')
             script.append('             startAngle:-20,')
             script.append('             showInLegend: false,')
             script.append('             toolTipContent:"R$ {y}",')
@@ -46,6 +48,9 @@ class GraficoTO {
 
             script.append('             ]')
             script.append('         }')
+            if(index < tam){
+                script.append('         ,')
+            }
         }
 
         script.append('         ]')

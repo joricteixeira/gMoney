@@ -28,7 +28,20 @@
                         </h3>
                     </div>
                     <div class="panel-body">
-                        <g:formatNumber number="${(fatura.itensFatura*.valor.sum{it} ?: 0) + (fatura.encargos*.valor.sum{it} ?: 0)}" type="currency"/>
+                        <g:formatNumber number="${fatura.valor}" type="currency"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            Total de terceiros
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <g:formatNumber number="${fatura.valorTerceiro}" type="currency"/>
                     </div>
                 </div>
             </div>

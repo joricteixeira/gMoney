@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <g:render template="cabecalhoPrevisao" model="[valorReceita: 4000, valorDespesa:(((faturas*.itensFatura*.valor.sum{it}.sum{it}) ?: 0) + ((itensFatura*.valor.sum{it}) ?: 0)), valorTerceiro: (faturas*.itensFatura*.valorTerceiro.sum{it}.sum{it})]"/>
+    <g:render template="cabecalhoPrevisao" model="[valorReceita: 4000, valorDespesa:(((faturas*.valor.sum{it}) ?: 0) + ((itensFaturasConvertidos*.valor.sum{it}) ?: 0)), valorTerceiro: (faturas*.valorTerceiro.sum{it})]" />
     <g:barraPressaoPorMes mes="${mapaMeses.mes}" ano="${mapaMeses.ano}" />
 
     <g:render template="previstos/tabelaItens"/>

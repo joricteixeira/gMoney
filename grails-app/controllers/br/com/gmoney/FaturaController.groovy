@@ -83,14 +83,16 @@ class FaturaController {
         Log.info("Data Obtida: "+ data)
         Log.info("ID Instituição: "+ instituicaoId)
 
+        def dataVencimento
+
         if((data != "") && (instituicaoId.isNumber())){
             def instituicao = Instituicao.findById(new Long(instituicaoId))
 
-            def dataVencimento = faturaService.calcularDataVencimento(1, data as String,instituicao)
+            dataVencimento = faturaService.calcularDataVencimento(1, data as String,instituicao)
             render(view:'/fatura/dataVencimentoCalculada', model: [dataVencimento: dataVencimento] )
-        }else{
-            render 'Não foi possível calcular a data'
         }
+
+        render(view:'/fatura/dataVencimentoCalculada', model: [dataVencimento: dataVencimento] )
 
 
 

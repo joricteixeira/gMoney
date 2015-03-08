@@ -24,12 +24,28 @@
                         </li>
                     </ul>
                 </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pagamentos<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <g:link controller="pagamento" action="lancarPagamento">Novo pagamento</g:link>
+                        </li>
+                        <li>
+                            <g:link controller="pagamento" action="listarPagamentos">Todos os lançamentos</g:link>
+                        </li>
+                    </ul>
+                </li>
+
                 <li>
                     <g:link controller="fatura" action="listarFaturas">Consultar Faturas</g:link>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Controle de Receita</a>
                     <ul class="dropdown-menu">
+                        <li>
+                            <g:link controller="grafico" action="balancoInstituicao" params="[id:1]">Balanço por Instituição</g:link>
+                        </li>
                         <li>
                             <g:link controller="grafico" action="gastosNoMes">Gastos por Institui&ccedil;&atilde;o</g:link>
                         </li>

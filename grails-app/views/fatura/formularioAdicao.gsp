@@ -14,16 +14,22 @@
 <body>
     <div class="container">
         <h1>${instituicao.nome}</h1>
-        <g:formRemote name="calcularVencimento" url="[controller:'fatura',action:'calcularDataVencimento']"
-                      update="dataCalculada"
-                      before="jQuery('#dataObtida').val(jQuery('#dataOrigemCompra').val()); jQuery('#instituicaoObtida').val(jQuery('#instituicaoId').val())">
-            <input type="hidden" id="instituicaoObtida" name="instituicaoObtida">
-            <input type="hidden" id="dataObtida" name="dataObtida">
-            <input type="submit" name="submit" value="Calcular Data">
-        </g:formRemote>
-        <div id="dataCalculada"></div>
-
         <g:render template="/template/form" />
+        <div class="row">
+            <div class="col-lg-9" id="dataCalculada">
+                <input type="text" readonly="readonly" class="form-control" value="" />
+            </div>
+            <div class="col-lg-1">
+                <g:formRemote name="calcularVencimento" url="[controller:'fatura',action:'calcularDataVencimento']"
+                              update="dataCalculada"
+                              before="jQuery('#dataObtida').val(jQuery('#dataOrigemCompra').val()); jQuery('#instituicaoObtida').val(jQuery('#instituicaoId').val())">
+                    <input type="hidden" id="instituicaoObtida" name="instituicaoObtida">
+                    <input type="hidden" id="dataObtida" name="dataObtida">
+
+                    <input type="submit" class="btn btn-default" name="submit" value="Estimar Data">
+                </g:formRemote>
+            </div>
+        </div>
     </div>
 </body>
 </html>

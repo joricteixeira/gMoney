@@ -40,10 +40,10 @@ class GerenciadorController {
 
         render(view: '/gerenciador/previstos/porFaturas' ,
                 model:[faturas:faturas,
-                       itensFatura: itensConvertidos,
+                       itensFaturasConvertidos: itensConvertidos,
                        mes:mes, ano:ano,
                        valorRenda: 4000,
-                       valorGasto: faturas*.itensFatura*.valor.sum{it},
+                       valorGasto: faturas*.valor.sum{it},
                        mapaMeses: mapaMeses
                 ]
         )

@@ -50,7 +50,7 @@
         <g:each in="${faturas}" var="fatura">
             <g:link controller="fatura" action="detalhesFatura" params="[id: fatura.id]" class="list-group-item">
                 <h4 class="list-group-item-heading">
-                    <g:formatNumber number="${fatura.itensFatura*.valor.sum{it}}" type="currency" />
+                    <g:formatNumber number="${fatura.valor}" type="currency" />
                 </h4>
                 <p class="list-group-item-text">
                     <g:formatDate date="${fatura.dataVencimento}" format="dd/MM/yyyy" /> -
