@@ -11,13 +11,13 @@
                 <div class="col-md-2">
                     <div class="form-group">
                         <label>Data inicial</label>
-                        <input type="date" name="dataInicial" class="form-control"/>
+                        <input type="date" name="dataInicial" class="form-control" value="${filtros.dataInicial}"/>
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label>Data final</label>
-                        <input type="date" name="dataFinal" class="form-control"/>
+                        <input type="date" name="dataFinal" class="form-control" value="${filtros.dataFinal}" />
                     </div>
                 </div>
                 <div class="col-md-2"></div>

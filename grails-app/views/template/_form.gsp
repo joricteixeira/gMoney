@@ -2,11 +2,15 @@
     <meta name="layout" content="main" />
 </head>
 <body>
+    <g:if test="fatura">
+        <h3><g:formatDate date="${fatura?.dataVencimento}" format="dd/MM/yyyy"/> </h3>
+    </g:if>
     <g:form controller="fatura" action="processarAdicao" >
         <g:hiddenField name="itemRecorrente" value="${itemRecorrente?.id}"/>
 
         <div class="form-group">
             <g:hiddenField name="instituicaoId" id="instituicaoId" value="${instituicao?.id}" />
+            <g:hiddenField name="faturaId" id="faturaId" value="${fatura?.id}" />
         </div>
 
         <div class="form-group">

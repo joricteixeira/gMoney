@@ -4,6 +4,7 @@ import jline.internal.Log
 
 class FaturaController {
     FaturaService faturaService
+    GerenciadorService gerenciadorService
 
     def index() {
         def cliente = Cliente.findById(1)
@@ -22,13 +23,21 @@ class FaturaController {
         def itemRecorrente = ItemFaturaRecorrente.findById(itemRecorrenteId)
 
         def instituicao = itemRecorrente ? itemRecorrente.instituicao : Instituicao.findById(new Long(params.instituicao ?: 0))
+        def fatura = Fatura.findById(new Long(params.faturaId ?: 0))
+
+        if(fatura != null) {
+            instituicao = fatura.instituicao
+        }
+
         if(instituicao == null){
             redirect action: index()
         }
 
-
         render view: "/fatura/formularioAdicao",
-               model: [instituicao: instituicao, terceiro: Terceiro.list(), itemRecorrente: itemRecorrente]
+               model: [instituicao: instituicao,
+                       terceiro: Terceiro.list(),
+                       itemRecorrente: itemRecorrente,
+                       fatura: fatura]
     }
 
     def processarAdicao(ItemFaturaCommand itemFaturaCommand){
@@ -69,10 +78,12 @@ class FaturaController {
         def fatura = Fatura.findById(idFatura)
 
         if(fatura == null){
-            redirect action: listarFaturas()
+            redirect action: listarFaturas(new FiltrosFaturaCommand())
         }
 
-        render(view: '/fatura/detalheFatura', model:[fatura:fatura])
+        List<ItemFaturaRecorrente> recorrentes = gerenciadorService.listarItemRecorrenteNaoLancadosNaFatura(fatura)
+
+        render(view: '/fatura/detalheFatura', model:[fatura:fatura, recorrentes: recorrentes])
     }
 
     def calcularDataVencimento(){

@@ -6,29 +6,27 @@ import grails.transaction.Transactional
 class FaturaService {
 
     def processarAdicao(ItemFaturaCommand itemFaturaCommand){
-        def listaFaturas = obterFaturas(itemFaturaCommand)
+        def faturas = obterFaturas(itemFaturaCommand)
 
         def subgrupo = new SubGrupo()
         subgrupo.save()
-        listaFaturas.eachWithIndex { fatura, index ->
 
+        faturas.eachWithIndex { fatura, index ->
             itemFaturaCommand.numeroParcela = index + 1
             def item = new ItemFatura(itemFaturaCommand, fatura, subgrupo)
             item.save()
-
         }
     }
 
-    def List<Fatura> obterFaturas(ItemFaturaCommand itemFaturaCommand){
+    private List<Fatura> obterFaturas(ItemFaturaCommand itemFaturaCommand){
         List<Fatura> faturas = new ArrayList<Fatura>()
 
         log.info("Item possui faturaId: [${itemFaturaCommand.faturaId}]")
-        println("Item possui faturaId: [${itemFaturaCommand.faturaId}]")
+
         if(itemFaturaCommand.faturaId == null) {
             log.info("Criar ou instanciar faturas")
             println("Criar ou instanciar faturas")
             def instituicao = Instituicao.findById(new Long(itemFaturaCommand.instituicaoId ?: 0))
-
 
             for (int i = Integer.parseInt(itemFaturaCommand.numeroParcela); i <= Integer.parseInt(itemFaturaCommand.quantidadeParcelas); i++) {
                 Date dataVencimento = calcularDataVencimento(i, itemFaturaCommand.dataOrigemCompra, instituicao)
@@ -41,12 +39,12 @@ class FaturaService {
                 faturas.add(fatura)
             }
 
-            return faturas
         }else{
             log.info("Adicionando item a fatura existente")
-            println("Adicionando item a fatura existente")
             faturas.add(Fatura.findById(new Long(itemFaturaCommand.faturaId)))
         }
+
+        return faturas
     }
 
     def Date calcularDataVencimento(int numeroParcela, String dataOrigemCompra, Instituicao instituicao){
@@ -93,6 +91,16 @@ class FaturaService {
             query.append(" AND F.instituicao = :pInstituicao")
             params.put("pInstituicao", Instituicao.findById(new Long(filtrosFaturaCommand.instituicao)))
             //faturas = Fatura.findAllByInstituicao(Instituicao.findById(new Long(filtrosFaturaCommand.instituicao)))
+        }
+
+        if(filtrosFaturaCommand.dataInicial != null){
+            query.append(" AND F.dataVencimento >= :pDataInicial")
+            params.put("pDataInicial", Date.parse("yyyy-M-d",filtrosFaturaCommand.dataInicial))
+        }
+
+        if(filtrosFaturaCommand.dataFinal != null){
+            query.append(" AND F.dataVencimento <= :pDataFinal")
+            params.put("pDataFinal", Date.parse("yyyy-M-d",filtrosFaturaCommand.dataFinal))
         }
 
         if((filtrosFaturaCommand.mes != 0) && (filtrosFaturaCommand.ano != 0)){

@@ -5,7 +5,15 @@
 <body>
     <div class="container">
 
-        <h1>${fatura.instituicao.nome}</h1>
+        <h1>${fatura.instituicao.nome}
+            <g:link class="btn btn-success"  controller="fatura" action="formularioAdicao" params="[faturaId:fatura.id]">
+                + adicionar item
+            </g:link>
+        </h1>
+
+
+
+
 
         <div class="row">
 
@@ -71,7 +79,26 @@
                 <th>R$</th>
                 <th>Terceiro</th>
                 <th>Valor Terceiro</th>
+                <th>Ações</th>
             </tr>
+
+            <g:each in="${recorrentes}" var="item">
+                <tr class="alert-danger">
+                    <td></td>
+                    <td></td>
+                    <td>${item.descricao}</td>
+                    <td>1 / 1</td>
+                    <td>${item.valor}</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <g:link class="btn btn-sm btn-success"  controller="fatura" action="formularioAdicao" params="[itemRecorrente:item.id, faturaId:fatura.id]">
+                            Lançar
+                        </g:link>
+                    </td>
+                </tr>
+            </g:each>
+
             <g:each in="${fatura.itensFatura.sort{a,b -> a.dataOrigemCompra < b.dataOrigemCompra ? -1 : 1}}" var="item">
                 <tr>
                     <td>${item.id}</td>
@@ -81,6 +108,10 @@
                     <td><g:formatNumber number="${item.valor}" type="currency" currencyCode="BRL" currencySymbol=""/></td>
                     <td>${item.terceiro?.nome}</td>
                     <td><g:formatNumber number="${item.valorTerceiro}" type="currency" currencyCode="BRL" currencySymbol=""/></td>
+                    <td>
+                        <button class="btn btn-sm btn-warning">Editar</button>
+                        <button class="btn btn-sm btn-danger">Remover</button>
+                    </td>
                 </tr>
             </g:each>
         </table>

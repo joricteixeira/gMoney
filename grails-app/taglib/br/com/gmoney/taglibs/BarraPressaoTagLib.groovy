@@ -39,7 +39,7 @@ class BarraPressaoTagLib {
         def itensNaoLancados = gerenciadorService.listarItemRecorrenteNaoLancadosNoMesConvertidos(mes, ano)
 
         def receita = new BigDecimal(4000)
-        def despesa = itens*.valor.sum{it} + itensNaoLancados*.valor.sum{it}
+        def despesa = (itens.size() > 0 ? itens*.valor.sum{it} : 0) + (itensNaoLancados.size() > 0 ? itensNaoLancados*.valor.sum{it} : 0)
         def despesaTerceiro = itens*.valorTerceiro.sum{it}
 
 

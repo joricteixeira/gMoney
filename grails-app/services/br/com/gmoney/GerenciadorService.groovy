@@ -39,6 +39,12 @@ class GerenciadorService {
         return lista
     }
 
+    def listarItemRecorrenteNaoLancadosNaFatura(Fatura fatura){
+        def lista = ItemFaturaRecorrente.executeQuery("SELECT R FROM ItemFaturaRecorrente AS R WHERE R.instituicao.id = (SELECT I.id FROM Instituicao AS I WHERE I.id = :pInstituicaoId) AND R NOT IN (SELECT I.itemFaturaRecorrente FROM ItemFatura AS I WHERE I.fatura.id = :pFaturaId) AND R.dataInicial <= :pDataVencimentoFatura AND R.dataFinal >= :pDataVencimentoFatura",["pFaturaId":fatura.id,"pDataVencimentoFatura":fatura.dataVencimento,"pInstituicaoId":fatura.instituicao.id])
+
+        return lista
+    }
+
     def listarItemRecorrenteNaoLancadosNoMesConvertidos(int mes, ano){
         def lista = listarItemRecorrenteNaoLancadosNoMes(mes, ano)
 
