@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99f1a337-d595-4893-8e10-4df914b7d791" name="Default" comment="">
+    <list default="true" id="99f1a337-d595-4893-8e10-4df914b7d791" name="Default" comment="Pagamentos&#10;Gráfico Balanço&#10;Prévia data lançamento">
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\.idea\dataSources.ids" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\.idea\dataSources.local.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\.idea\dataSources.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\.idea\workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\ApplicationResources$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\ApplicationResources$_run_closure1_closure2.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\ApplicationResources.class" afterPath="" />
@@ -71,7 +76,9 @@
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GerenciadorService.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoController.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService$_$tt__gastoNoMesPorInstituicao_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService$_$tt__gastoNoMes_closure2.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService$_gastoNoMesPorInstituicao_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService$_gastoNoMes_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\HomeController.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\Instituicao$__clinit__closure1.class" afterPath="" />
@@ -79,7 +86,9 @@
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\Instituicao.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoController.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService$_gastosNoMesPosInstituicao_closure1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService$_listarGastosDeInsituicoesNoMes_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService$_listarInstituicoesRestantes_closure2.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService$_serviceMethod_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\ItemFatura$__clinit__closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\ItemFatura$__clinit__closure2.class" afterPath="" />
@@ -113,811 +122,6 @@
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\taglibs\BarraPressaoTagLib.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\resources$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\resources.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\stacktrace.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\TomcatGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\InlineExplodedTomcatServer$_preStart_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\InlineExplodedTomcatServer$_preStart_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\InlineExplodedTomcatServer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\ParentDelegatingClassLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\TomcatKillSwitch.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\TomcatLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\TomcatServer$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\TomcatServer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\TomcatServerFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\ForkedTomcatServer$_findSystemClasspathJars_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\ForkedTomcatServer$_findSystemClasspathJars_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\ForkedTomcatServer$_startSecure_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\ForkedTomcatServer$_startSecure_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\ForkedTomcatServer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\TomcatDevelopmentRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\TomcatExecutionContext$_buildMinimalIsolatedClasspath_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\TomcatExecutionContext.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-build-classes\org\grails\plugins\tomcat\fork\TomcatWarRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure6_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure6_closure8_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure1_closure7_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure2_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure2_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\CacheGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DatabaseMigrationGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DatabaseMigrationGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DatabaseMigrationGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DbdocUrlMappings$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DbdocUrlMappings.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DefaultCacheConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DefaultCacheConfig$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DefaultCacheConfig$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DefaultCacheConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DefaultWebXmlConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\DefaultWebXmlConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\HibernateGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryConfig$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryPluginResources$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryPluginResources$_run_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryPluginResources$_run_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryPluginResources.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure2_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryResourceTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryService$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryService$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryService$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryService$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JQueryTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JqueryGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JqueryGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JqueryGrailsPlugin$_closure2_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JqueryGrailsPlugin$_closure2_closure3_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\JqueryGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesBootStrap$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesBootStrap$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesBootStrap.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure1_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure1_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure11_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure11_closure13_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure11_closure13_closure14_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure11_closure13_closure14_closure15_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure12_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure12_closure17_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure2_closure12_closure17_closure18_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure4_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure4_closure21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure4_closure22.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_handleChange_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_isResourceWeShouldProcess_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin$_triggerReload_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ResourcesGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure1_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure1_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_configureScaffoldingController_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_getScaffoldedActions_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_getScaffoldedActions_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin$_getScaffoldedActions_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\ScaffoldingGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure2_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure2_closure8_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure3_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure4_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure5_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure5_closure12_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure6_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin$_closure1_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\WebxmlGrailsPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\BlockingCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheBeanPostProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheConfigArtefactHandler$CacheConfigGrailsClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheConfigArtefactHandler$DefaultCacheConfigGrailsClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheConfigArtefactHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheEvict.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CachePut.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CacheTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\Cacheable.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\ConfigBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\ConfigLoader$_sortConfigs_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\ConfigLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\CustomCacheKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsAnnotationCacheOperationSource$DefaultCacheKey.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsAnnotationCacheOperationSource.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsCacheAdminService.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsConcurrentMapCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsConcurrentMapCacheManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\GrailsValueWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\SerializableByteArrayOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\SerializableOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\Timer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\compiler\CacheTransformation.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\util\ClassUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\AlreadyGzippedException.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\ContentCacheParameters.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\GenericResponseWrapper$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\GenericResponseWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\Header$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\Header.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\HttpDateFormatter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\PageInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\ProxyAwareMixedGrailsControllerHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\SerializableCookie.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\AbstractFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\CacheExpressionRootObject.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\CacheOperationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\DefaultWebKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\ExpressionEvaluator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\FilterServletOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\LazyParamAwareEvaluationContext.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\NoOpFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter$2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter$CacheStatus.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\PageFragmentCachingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\WebKeyGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\simple\MemoryBlockingCache.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\simple\MemoryCacheConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\cache\web\filter\simple\MemoryPageFragmentCachingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ChangelogXml2Groovy$_appendAttrs_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ChangelogXml2Groovy$_appendWithIndent_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ChangelogXml2Groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DbdocController$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DbdocController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_expandExpressions_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_extractZipFile_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_handleIncludedChangeLog_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_processIncludeAll_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_processProperty_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_processRollback_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder$_setPropertiesFromAttributes_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\DslBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormColumn$_isIdentityColumn_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormColumn.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabase.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_createIdentifierGenerator_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_createSnapshot_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_createSnapshot_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure3_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator$_filterSnapshot_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDatabaseTypeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GormDiff.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChange$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChange.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChangeLogParser$_setChangelogProperties_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsChangeLogParser.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsClassLoaderResourceAccessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsDiffStatusListener.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsPrecondition$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GrailsPrecondition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\GroovyAwareStringChangeLogSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\HibernateAwareTypeConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner$_autoRun_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner$_autoRun_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_getDataSourceConfigs_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_getDatabase_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_getDatabases_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure18_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils$_removeIgnoredObjects_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MigrationUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MySQLCompatibleChangeLogSerializer$_hasForeignKeyConstraintChange_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MySQLCompatibleChangeLogSerializer.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\MysqlAwareCreateTableGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\NoopVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_appendToChangelog_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_appendToChangelog_closure2_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_appendToChangelog_closure2_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_executeAndWrite_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils$_generatePreviousChangesetSql_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\ScriptUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\Slf4jLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\AuthorListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\AuthorWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\ChangeLogListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\ChangeLogWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\ColumnWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\HTMLListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\HTMLWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\MemoryDocVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\PendingChangesWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\PendingSQLWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\RecentChangesWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\TableListWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\TableWriter$_writeCustomHTML_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\databasemigration\dbdoc\TableWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure8_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure1_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2_closure13_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2_closure13_closure15_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2_closure13_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure2_closure14_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport$__clinit__closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\hibernate3\HibernatePluginSupport.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\grails\plugin\webxml\FilterManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig$_init_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig$_init_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider$_doRemoteFunction_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator$GrailsControllerType.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\DefaultGrailsTemplateGenerator$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\DefaultGrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\DomainClassPropertyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\GrailsTemplateGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\SimpleDomainClassPropertyComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\view\ScaffoldedGroovyPageView.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\codehaus\groovy\grails\scaffolding\view\ScaffoldingViewResolver.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\AggregatedResourceMeta$_buildAggregateResource_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\AggregatedResourceMeta$_buildAggregateResource_closure3_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\AggregatedResourceMeta$_containsResource_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\AggregatedResourceMeta$_isDirty_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\AggregatedResourceMeta.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\BaseUrlResourceMapper$_verifySameBaseUrlForAllModulesInBundle_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\BaseUrlResourceMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\BundleResourceMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSBundleResourceMeta.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSLinkProcessor$_process_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSLinkProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSPreprocessorResourceMapper$_map_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSPreprocessorResourceMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSRewriterResourceMapper$_map_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSRewriterResourceMapper$_map_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\CSSRewriterResourceMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\DevModeSanityFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\JavaScriptBundleResourceMeta.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ProcessingFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\RequestUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceMeta$_reset_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceMeta.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceModule$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceModule$_getRequiredDispositions_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceModule$_newResourceFromArgs_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceModule.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_addModuleDispositionsToRequest_closure23.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_afterPropertiesSet_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_afterPropertiesSet_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_canProcessLegacyResource_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_canProcessLegacyResource_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_defineModuleFromBuilder_closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_dumpResources_closure21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_dumpResources_closure21_closure36.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_dumpResources_closure21_closure37.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_dumpResources_closure22.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_findSyntheticResourceById_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_getConfigParamOrDefault_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_getResourceMetaForURI_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_getResourceMetaForURI_closure11_closure28.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_getServletContext_closure24.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure18_closure31.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure19_closure32.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure19_closure33.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure19_closure33_closure34.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure19_closure33_closure35.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_loadModules_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_makeFileSystemPathFromURI_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_prepareResourceBatch_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_prepareResourceBatch_closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_prepareResourceBatch_closure15_closure29.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_prepareResourceBatch_closure15_closure30.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_prepareResourceBatch_closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_prepareSingleDeclaredResource_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure6_closure25.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure7_closure26.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor$_updateDependencyOrder_closure7_closure26_closure27.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceProcessorBatch.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$__clinit__closure15.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$__clinit__closure16.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$__clinit__closure17.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$__clinit__closure18.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure12.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure12_closure21.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure1_closure19.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure5_closure20.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_resolveLinkUriToUriAndResource_closure14.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib$_writeAttrs_closure13.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\ResourceTagLib.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\URLUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\MapperPhase.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getDefaultExcludes_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getDefaultIncludes_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getExcludes_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getExcludingPattern_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getIncludes_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getIncludingPattern_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getName_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getOperation_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getPhase_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper$_getPriority_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure2_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory$_createResourceMappers_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\mapper\ResourceMappersFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModuleBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModuleDeclarationsFactory$_getModuleDeclarations_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModuleDeclarationsFactory$_getModuleDeclarations_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModuleDeclarationsFactory$_getModuleDeclarations_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModuleDeclarationsFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModulesBuilder$_invokeMethod_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\module\ModulesBuilder.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\DispositionsUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\HalfBakedLegacyLinkGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\ResourceMetaStore$_addResource_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\ResourceMetaStore.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\StatsManager$_dumpStats_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\StatsManager$_dumpStats_closure1_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resource\util\StatsManager.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\AbstractResourcesArtefactHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\DefaultResourceMapperClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\DefaultResourcesClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\ResourceMapperArtefactHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\ResourceMapperClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\ResourcesArtefactHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugin-classes\org\grails\plugin\resources\artefacts\ResourcesClass.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\CacheGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\grails-app\conf\DefaultCacheConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\grails-app\services\grails\plugin\cache\GrailsCacheAdminService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\grails-app\taglib\grails\plugin\cache\CacheTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\groovy\grails\plugin\cache\ConfigBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\groovy\grails\plugin\cache\ConfigLoader.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\BlockingCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheBeanPostProcessor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheConfigArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CacheEvict.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CachePut.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\Cacheable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\CustomCacheKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsAnnotationCacheOperationSource.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsCacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsConcurrentMapCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsConcurrentMapCacheManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\GrailsValueWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\SerializableByteArrayOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\SerializableOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\Timer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\compiler\CacheTransformation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\util\ClassUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\AlreadyGzippedException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\ContentCacheParameters.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\GenericResponseWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\Header.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\HttpDateFormatter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\PageInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\ProxyAwareMixedGrailsControllerHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\SerializableCookie.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\AbstractFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\CacheExpressionRootObject.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\CacheOperationContext.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\DefaultWebKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\ExpressionEvaluator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\FilterServletOutputStream.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\LazyParamAwareEvaluationContext.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\NoOpFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\PageFragmentCachingFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\WebKeyGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\simple\MemoryBlockingCache.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\simple\MemoryCacheConfiguration.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\cache-1.1.1\src\java\grails\plugin\cache\web\filter\simple\MemoryPageFragmentCachingFilter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\DatabaseMigrationGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\grails-app\conf\DbdocUrlMappings.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\grails-app\controllers\grails\plugin\databasemigration\DbdocController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_globalnav.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_overview-summary.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\grails-app\views\dbdoc\_stylesheet.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmChangelogSync.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmChangelogSyncSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmChangelogToGroovy.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmClearChecksums.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmCreateChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmDbDoc.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmDropAll.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmFutureRollbackSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmGenerateChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmGenerateGormChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmGormDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmListLocks.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmListTags.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmMarkNextChangesetRan.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmPreviousChangesetSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRegisterChangelog.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmReleaseLocks.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRollback.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackCount.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackCountSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackToDate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmRollbackToDateSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmStatus.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmTag.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdateCount.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdateCountSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmUpdateSql.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\DbmValidate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\_DatabaseMigrationCommon.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\scripts\_Install.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\ChangelogXml2Groovy.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\DslBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormColumn.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDatabase.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDatabaseSnapshotGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDatabaseTypeConverter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GormDiff.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsChange.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsChangeLogParser.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsClassLoaderResourceAccessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsDiffStatusListener.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GrailsPrecondition.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\GroovyAwareStringChangeLogSerializer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\HibernateAwareTypeConverter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MigrationRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MigrationUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MySQLCompatibleChangeLogSerializer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\MysqlAwareCreateTableGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\NoopVisitor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\ScriptUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\Slf4jLogger.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\AuthorListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\AuthorWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\ChangeLogListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\ChangeLogWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\ColumnWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\HTMLListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\HTMLWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\MemoryDocVisitor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\PendingChangesWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\PendingSQLWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\RecentChangesWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\TableListWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\groovy\grails\plugin\databasemigration\dbdoc\TableWriter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\database-migration-1.3.8\src\resources\changelog.template" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\HibernateGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\scripts\CreateHibernateCfgXml.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\scripts\SchemaExport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\attach.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\delete.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\discard.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\getDirtyPropertyNames.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\getPersistentValue.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\instanceOf.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\isAttached.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\isDirty.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\lock.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\merge.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\methodMissing.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\refresh.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\save.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\docs\ref\Domain\validate.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\groovy\grails\plugin\hibernate3\HibernatePluginSupport.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\hibernate-3.6.10.9\src\java\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\JqueryGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\grails-app\assets\javascripts\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\grails-app\conf\JQueryConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\grails-app\conf\JQueryPluginResources.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\grails-app\services\JQueryService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\grails-app\taglib\JQueryResourceTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\grails-app\taglib\JQueryTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\scripts\InstallJQuery.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\src\groovy\org\codehaus\groovy\grails\plugins\jquery\JQueryConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\src\groovy\org\codehaus\groovy\grails\plugins\jquery\JQueryProvider.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\web-app\js\jquery\jquery-1.11.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\web-app\js\jquery\jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\jquery-1.11.0.2\web-app\js\jquery\jquery-1.11.0.min.map" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\ResourcesGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\conf\ResourcesBootStrap.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\BaseUrlResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\BundleResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\CSSPreprocessorResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\resourceMappers\org\grails\plugin\resource\CSSRewriterResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\grails-app\taglib\org\grails\plugin\resource\ResourceTagLib.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1. Overview.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1 Quick Start.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.1 Make sure jQuery plugin is installed.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.2 Install jQuery UI and Blueprint plugins.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.3 Edit your Sitemesh layout.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.4 Edit your GSP page to include jQuery.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.5 View the page source.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\1.1.6 Now optimize your application.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\10. Security.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\2. Concepts.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3. Declaring resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.1 The resource DSL.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.1.1 The dependsOn method.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.1.2 The resource method.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.1.3 The defaultBundle method.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.2 Resource artefacts.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.3 Config.groovy.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\3.4 Bundling.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\4. Using resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\4.1 Linking to CSS, JavaScript etc..gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\4.2 Linking to images.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\4.3 Linking to resources explicitly, bypassing modules.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\4.4 Including pieces of JavaScript code generated at runtime.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\5. Overriding resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\6. Creating custom mappers.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\6.1 Defining a mapper.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\6.2 Mapper phases and priority.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\6.3 Operation.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\6.4 Processing only the right types of files.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\6.5 Adding response headers and intercepting requests.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\7. Writing plugins that use Resources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\8. Debugging.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\guide\9. Configuration.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\baseurl.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\bundle.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\csspreprocessor.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Mappers\cssrewriter.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\external.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\img.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\layoutResources.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\require.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\resource.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\resourceLink.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\script.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\stash.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\style.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\docs\ref\Tags\use.gdoc" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\AggregatedResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\CSSBundleResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\CSSLinkProcessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\DevModeSanityFilter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\JavaScriptBundleResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ProcessingFilter.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\RequestUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceMeta.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceModule.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceProcessor.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\ResourceProcessorBatch.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\URLUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\mapper\MapperPhase.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\mapper\ResourceMapper.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\mapper\ResourceMappersFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\module\ModuleBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\module\ModuleDeclarationsFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\module\ModulesBuilder.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\DispositionsUtils.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\HalfBakedLegacyLinkGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\ResourceMetaStore.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\groovy\org\grails\plugin\resource\util\StatsManager.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\AbstractResourcesArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\DefaultResourceMapperClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\DefaultResourcesClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourceMapperArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourceMapperClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourcesArtefactHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\src\java\org\grails\plugin\resources\artefacts\ResourcesClass.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file4.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-207\file5.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-210\file1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\resources-1.2.7\web-app\GPRESOURCES-210\file2.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\ScaffoldingGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\CreateScaffoldController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\GenerateAll.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\GenerateAsyncController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\GenerateController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\GenerateRestfulController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\GenerateViews.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\scripts\_GrailsGenerate.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\groovy\org\codehaus\groovy\grails\scaffolding\DefaultGrailsTemplateGenerator.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\AbstractGrailsTemplateGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\DomainClassPropertyComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\GrailsTemplateGenerator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\SimpleDomainClassPropertyComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\view\ScaffoldedGroovyPageView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\java\org\codehaus\groovy\grails\scaffolding\view\ScaffoldingViewResolver.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\artifacts\ScaffoldingController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\AsyncController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\AsyncSpec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\Controller.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\RestfulController.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\RestfulSpec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\Spec.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\_form.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\create.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\edit.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\index.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\renderEditor.template" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\scaffolding-2.0.2\src\templates\scaffolding\show.gsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\TomcatGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\grails-plugin-tomcat-7.0.52.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\scripts\Tomcat.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\scripts\_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\InlineExplodedTomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\TomcatLoader.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\TomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\TomcatServerFactory.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\fork\ForkedTomcatServer.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\fork\TomcatDevelopmentRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\fork\TomcatExecutionContext.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\groovy\org\grails\plugins\tomcat\fork\TomcatWarRunner.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\java\org\grails\plugins\tomcat\ParentDelegatingClassLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\tomcat-7.0.52.1\src\java\org\grails\plugins\tomcat\TomcatKillSwitch.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\WebxmlGrailsPlugin.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\application.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\dependencies.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\grails-app\conf\DefaultWebXmlConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\plugin.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\scripts\CreateWebXmlConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\scripts\_Events.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\src\groovy\grails\plugin\webxml\FilterManager.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\plugins\webxml-1.4.1\src\samples\_WebXmlConfig.groovy" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_cs_CZ.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_da.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_ja.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_nb.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_pl.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_pt_BR.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_pt_PT.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_sv.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_th.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\grails-app\i18n\messages_zh_CN.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\hibernate.cfg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\plugins\hibernate-3.6.10.9\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\plugins\resources-1.2.7\grails-app\i18n\messages.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\resources\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\IdeaPrintProjectSettings$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\IdeaPrintProjectSettings.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\LinkedProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\ListEnumeration.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsArgParsing_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsArgParsing_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClasspath_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClasspath_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy$_run_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsClean_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure2_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure2_closure6_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure3_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure3_closure8_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCompile_groovy.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCreateArtifacts_groovy$_run_closure1.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCreateArtifacts_groovy$_run_closure1_closure10.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCreateArtifacts_groovy$_run_closure1_closure6.class" afterPath="" />
@@ -929,97 +133,13 @@
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCreateArtifacts_groovy$_run_closure4.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCreateArtifacts_groovy$_run_closure5.class" afterPath="" />
       <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsCreateArtifacts_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsEvents_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsEvents_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsEvents_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsEvents_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsEvents_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsEvents_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy$_run_closure1_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsInit_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure2_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy$_run_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsPackage_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsProxy_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsProxy_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure5_closure10.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure7_closure11.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure8.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy$_run_closure9.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsRun_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy$_run_closure3_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy$_run_closure3_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy$_run_closure3_closure5_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsSettings_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy$_run_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy$_run_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy$_run_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_GrailsWar_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PackagePlugins_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PackagePlugins_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PackagePlugins_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PackagePlugins_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_createPluginInstallEngine_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_createPluginInstallEngine_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_createPluginInstallEngine_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_createPluginInstallEngine_closure7.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy$_run_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\scriptCache\_PluginDependencies_groovy.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\css\errors.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\images\apple-touch-icon-retina.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\images\apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\images\favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\js\application.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\js\jquery.canvasjs.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\plugins\jquery-1.11.0.2\js\jquery\jquery-1.11.0.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\tomcat\work\Tomcat\localhost\gMoney\grails-resources\plugins\jquery-1.11.0.2\js\jquery\jquery-1.11.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\work\web.xml.tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/taglib/br/com/gmoney/taglibs/BarraPressaoTagLib.groovy" afterPath="$PROJECT_DIR$/grails-app/taglib/br/com/gmoney/taglibs/BarraPressaoTagLib.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/DataSource.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/br/com/gmoney/FaturaController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/br/com/gmoney/FaturaController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/br/com/gmoney/FaturaService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/br/com/gmoney/FaturaService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/groovy/br/com/gmoney/FiltrosFaturaCommand.groovy" afterPath="$PROJECT_DIR$/src/groovy/br/com/gmoney/FiltrosFaturaCommand.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/br/com/gmoney/GerenciadorService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/br/com/gmoney/GerenciadorService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/template/_form.gsp" afterPath="$PROJECT_DIR$/grails-app/views/template/_form.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.properties" afterPath="$PROJECT_DIR$/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/fatura/detalheFatura.gsp" afterPath="$PROJECT_DIR$/grails-app/views/fatura/detalheFatura.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gMoney-grailsPlugins.iml" afterPath="$PROJECT_DIR$/gMoney-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/fatura/listagemFaturas.gsp" afterPath="$PROJECT_DIR$/grails-app/views/fatura/listagemFaturas.gsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
     </list>
     <list id="6b1c4651-01eb-48d0-a7a6-41c4fe37316a" name="naoCommitar" comment="">
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService$_$tt__gastoNoMes_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\GraficoService$_gastoNoMes_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService$_listarGastosDeInsituicoesNoMes_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\DEV\workspace\gMoney\target\classes\br\com\gmoney\InstituicaoService$_serviceMethod_closure1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gMoney-grailsPlugins.iml" afterPath="$PROJECT_DIR$/gMoney-grailsPlugins.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gMoney.iml" afterPath="$PROJECT_DIR$/gMoney.iml" />
     </list>
     <ignored path="gMoney.iws" />
@@ -1044,7 +164,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\DEV\workspace\gMoney" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -1055,80 +175,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FaturaController.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/controllers/br/com/gmoney/FaturaController.groovy">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2006">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state vertical-scroll-proportion="4.9069767" vertical-offset="520" max-vertical-offset="3434">
+              <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detalheFatura.gsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/fatura/detalheFatura.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2108">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="formularioAdicao.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/fatura/formularioAdicao.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="680">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.gsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/template/_form.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="204" max-vertical-offset="1615">
-              <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FaturaService.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/br/com/gmoney/FaturaService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="935">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#1104#1619#0" expanded="false" />
-                <element signature="n#!!block;n#calcularDataVencimento#0;n#!!block;n#FaturaService#0" expanded="false" />
-                <element signature="e#2162#2252#1" expanded="false" />
-                <element signature="e#2162#2252#0" expanded="false" />
-                <element signature="e#2162#2252#1" expanded="false" />
-                <element signature="e#2410#2484#1" expanded="false" />
-                <element signature="e#2410#2484#0" expanded="false" />
-                <element signature="e#2410#2484#1" expanded="false" />
-                <element signature="e#2553#2616#1" expanded="false" />
-                <element signature="e#2553#2616#0" expanded="false" />
-                <element signature="e#2553#2616#1" expanded="false" />
-                <element signature="e#2620#2814#0" expanded="false" />
-                <element signature="n#!!block;n#listaDeFaturas#0;n#!!block;n#FaturaService#0" expanded="false" />
-                <element signature="e#3311#3608#0" expanded="false" />
-                <element signature="e#3662#3836#0" expanded="false" />
-                <element signature="e#3888#4056#0" expanded="false" />
-                <element signature="e#4136#4360#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -1137,6 +189,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -1177,6 +230,8 @@
         <option value="$PROJECT_DIR$/grails-app/views/fatura/detalheFatura.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/template/_form.gsp" />
         <option value="$PROJECT_DIR$/application.properties" />
+        <option value="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1184,11 +239,12 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1213,6 +269,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1231,24 +288,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gMoney" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gMoney" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1267,6 +309,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RunManager" selected="Grails.Grails:gMoney">
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1388,6 +431,17 @@
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
       <envs />
       <method />
     </configuration>
@@ -1563,7 +617,12 @@
       <workItem from="1441656143825" duration="758000" />
       <workItem from="1442182672643" duration="18649000" />
       <workItem from="1446170320511" duration="661000" />
-      <workItem from="1491440142035" duration="842000" />
+      <workItem from="1491440142035" duration="4114000" />
+      <workItem from="1492260777559" duration="1273000" />
+      <workItem from="1492345048519" duration="628000" />
+      <workItem from="1492345693892" duration="564000" />
+      <workItem from="1492346355667" duration="168000" />
+      <workItem from="1492346564829" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="Atualizar ok">
       <created>1425001398751</created>
@@ -1583,14 +642,32 @@
       <option name="project" value="LOCAL" />
       <updated>1425774657931</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Pagamentos&#10;Gráfico Balanço&#10;Prévia data lançamento">
+      <created>1492345256668</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492345256669</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update grails version">
+      <created>1492346929040</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492346929040</updated>
+    </task>
+    <task id="LOCAL-00006" summary="sei la">
+      <created>1492346961858</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492346961858</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94576000" />
+    <option name="totallyTimeSpent" value="101033000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1602,21 +679,21 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2822458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3233831" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2814871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.63071895" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -1624,9 +701,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3627451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.5408472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5408472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1642,24 +719,24 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32669982" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21406959" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3980424" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2822458" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3627451" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5522388" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44281045" sideWeight="0.5408472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.5408472" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1684,7 +761,9 @@
     </option>
     <MESSAGE value="Atualizar ok" />
     <MESSAGE value="Pagamentos&#10;Gráfico Balanço&#10;Prévia data lançamento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pagamentos&#10;Gráfico Balanço&#10;Prévia data lançamento" />
+    <MESSAGE value="update grails version" />
+    <MESSAGE value="sei la" />
+    <option name="LAST_COMMIT_MESSAGE" value="sei la" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1700,28 +779,11 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/br/com/gmoney/FaturaController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1360">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
@@ -1730,13 +792,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/br/com/gmoney/Encargo.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7876448" vertical-offset="102" max-vertical-offset="459">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
@@ -1778,13 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="272">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2210">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -1831,13 +886,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/br/com/gmoney/ItemFatura.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="196" max-vertical-offset="1088">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/grafico/gastoNoMes.gsp">
@@ -1883,13 +938,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/br/com/gmoney/Pagamento.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.47569445" vertical-offset="205" max-vertical-offset="493">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/groovy/br/com/gmoney/grafico/GraficoTO.groovy">
@@ -1900,13 +955,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/domain/br/com/gmoney/Fatura.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1037">
           <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
         </state>
-      </provider>
-      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/br/com/gmoney/PagamentoController.groovy">
@@ -1958,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64041096" vertical-offset="204" max-vertical-offset="1785">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/fatura/listagemFaturas.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0317757" vertical-offset="272" max-vertical-offset="1173">
@@ -1976,13 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.425974" vertical-offset="23" max-vertical-offset="408">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1615">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -2031,35 +1072,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/br/com/gmoney/FaturaService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="326" max-vertical-offset="935">
+        <state vertical-scroll-proportion="0.1426087" vertical-offset="326" max-vertical-offset="935">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#1104#1619#0" expanded="false" />
-            <element signature="n#!!block;n#calcularDataVencimento#0;n#!!block;n#FaturaService#0" expanded="false" />
-            <element signature="e#2162#2252#1" expanded="false" />
-            <element signature="e#2162#2252#0" expanded="false" />
-            <element signature="e#2162#2252#1" expanded="false" />
-            <element signature="e#2410#2484#1" expanded="false" />
-            <element signature="e#2410#2484#0" expanded="false" />
-            <element signature="e#2410#2484#1" expanded="false" />
-            <element signature="e#2553#2616#1" expanded="false" />
-            <element signature="e#2553#2616#0" expanded="false" />
-            <element signature="e#2553#2616#1" expanded="false" />
-            <element signature="e#2620#2814#0" expanded="false" />
-            <element signature="n#!!block;n#listaDeFaturas#0;n#!!block;n#FaturaService#0" expanded="false" />
-            <element signature="e#3311#3608#0" expanded="false" />
-            <element signature="e#3662#3836#0" expanded="false" />
-            <element signature="e#3888#4056#0" expanded="false" />
-            <element signature="e#4136#4360#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/fatura/formularioAdicao.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="74" max-vertical-offset="680">
+        <state vertical-scroll-proportion="0.36065573" vertical-offset="74" max-vertical-offset="680">
           <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2067,7 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="2006">
           <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2075,15 +1095,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1615">
           <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.44347826" vertical-offset="408" max-vertical-offset="1615">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08869565" vertical-offset="204" max-vertical-offset="2210">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/DataSource.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5026087" vertical-offset="867" max-vertical-offset="1785">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.059130434" vertical-offset="0" max-vertical-offset="575">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/br/com/gmoney/ItemFaturaRecorrente.groovy">
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.059130434" vertical-offset="0" max-vertical-offset="578">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -2091,6 +1140,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2108">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/scopes/scope_settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2798354" vertical-offset="0" max-vertical-offset="243">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.9069767" vertical-offset="520" max-vertical-offset="3434">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding />
         </state>
       </provider>
